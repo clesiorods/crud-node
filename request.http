@@ -1,0 +1,35 @@
+POST  http://localhost:4001/products
+Content-Type: application/json
+
+{
+    "name": "Borracha Branca",
+    "price": 3.50
+}
+
+###
+
+GET  http://localhost:4001/products
+
+
+###
+
+
+GET  http://localhost:4001/product/77bdbaf2-1a7c-4d5d-8d69-b558bc964dd6
+
+
+###
+
+
+
+PUT  http://localhost:4001/product/4748baab-0a9d-49f3-aa19-4c03b5207660
+Content-Type: application/json
+
+{
+    "name": "Caneta Preta",
+    "price": 3.00
+}
+
+###
+
+
+DELETE  http://localhost:4001/product/107efde4-3be2-484e-b006-75f2318ff672

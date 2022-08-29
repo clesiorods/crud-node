@@ -1,0 +1,17 @@
+[
+    {
+        "name": "Caneta Preta",
+        "price": 3,
+        "id": "4748baab-0a9d-49f3-aa19-4c03b5207660"
+    },
+    {
+        "name": "Caderno 96 folhas",
+        "price": 19.99,
+        "id": "d9caa7a0-f161-446b-bd4d-0f92ff595737"
+    },
+    {
+        "name": "Borracha Branca",
+        "price": 3.5,
+        "id": "a8281aa3-a471-4c08-a75a-775f84d1e047"
+    }
+]
