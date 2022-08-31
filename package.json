@@ -1,13 +1,22 @@
 {
   "name": "crud-node",
   "version": "1.0.0",
+  "description": "",
   "main": "index.js",
-  "repository": "https://github.com/clesiorods/crud-node.git",
-  "author": "clesiorods <clesiorodrigues96@gmail.com>",
-  "license": "MIT",
   "scripts": {
-    "dev": "nodemon server.js"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon app.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/clesiorods/crud-node.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/clesiorods/crud-node/issues"
+  },
+  "homepage": "https://github.com/clesiorods/crud-node#readme",
   "dependencies": {
     "express": "^4.18.1",
     "nodemon": "^2.0.19"

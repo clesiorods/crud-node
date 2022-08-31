@@ -13,5 +13,10 @@
         "name": "Borracha Branca",
         "price": 3.5,
         "id": "a8281aa3-a471-4c08-a75a-775f84d1e047"
+    },
+    {
+        "name": "Lapis comum nº 3",
+        "price": 1.25,
+        "id": "ab33a9d0-a62b-477d-b668-790bc54180f5"
     }
 ]

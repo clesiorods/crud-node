@@ -2,8 +2,8 @@ POST  http://localhost:4001/products
 Content-Type: application/json
 
 {
-    "name": "Borracha Branca",
-    "price": 3.50
+    "name": "Lapis comum nº 3",
+    "price": 1.25
 }
 
 ###
