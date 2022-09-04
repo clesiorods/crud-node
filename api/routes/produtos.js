@@ -13,5 +13,8 @@ router.post('/', (request, response) => {
     produtosController.create(request, response);
 })
 
+router.put('/:id', (request, response) => {
+    produtosController.update(request, response);
+})
 
 module.exports = router;
