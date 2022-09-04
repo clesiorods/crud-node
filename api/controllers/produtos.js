@@ -45,5 +45,24 @@ module.exports = {
         res.status(201).send({
             message: "Produto editado com sucesso"
         });
+    },
+
+
+    async delete(req, res) {
+        const sequelize = new Sequelize('banco_teste', 'root', '', {
+            host: 'localhost',
+            dialect: 'mysql'
+        });
+
+        const { nome, descricao } = req.body;
+
+        await Produtos(sequelize, Sequelize.DataTypes).destroy(
+            {
+                where: { id: req.params.id }
+            }
+        )
+        res.status(201).send({
+            message: "Produto removido com sucesso"
+        });
     }
 }

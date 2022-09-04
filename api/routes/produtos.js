@@ -17,4 +17,9 @@ router.put('/:id', (request, response) => {
     produtosController.update(request, response);
 })
 
+router.delete('/:id', (request, response) => {
+    produtosController.delete(request, response);
+})
+
+
 module.exports = router;
